@@ -41,8 +41,7 @@ def city_name_separater(city_name):
             for i in range(len(x)):
                 result += x[i] + "+"
             return result[:-1]
-        else :
-            return city_name
+        else : return city_name
 
 def weather_fetch(city_name):
     city = city_name_separater(city_name)
